@@ -8,12 +8,12 @@ import (
 
 	db "github.com/cometbft/cometbft-db"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/libs/log"
-	blockidxkv "github.com/cometbft/cometbft/state/indexer/block/kv"
-	"github.com/cometbft/cometbft/state/txindex"
-	"github.com/cometbft/cometbft/state/txindex/kv"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/KYVENetwork/dydx-cometbft/abci/types"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	blockidxkv "github.com/KYVENetwork/dydx-cometbft/state/indexer/block/kv"
+	"github.com/KYVENetwork/dydx-cometbft/state/txindex"
+	"github.com/KYVENetwork/dydx-cometbft/state/txindex/kv"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 func TestIndexerServiceIndexesBlocks(t *testing.T) {

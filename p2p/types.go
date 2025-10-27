@@ -3,8 +3,8 @@ package p2p
 import (
 	"github.com/cosmos/gogoproto/proto"
 
-	"github.com/cometbft/cometbft/p2p/conn"
-	tmp2p "github.com/cometbft/cometbft/proto/tendermint/p2p"
+	"github.com/KYVENetwork/dydx-cometbft/p2p/conn"
+	tmp2p "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/p2p"
 )
 
 type ChannelDescriptor = conn.ChannelDescriptor

@@ -8,15 +8,15 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/cometbft/cometbft/crypto/merkle"
-	cmtbytes "github.com/cometbft/cometbft/libs/bytes"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	service "github.com/cometbft/cometbft/libs/service"
-	rpcclient "github.com/cometbft/cometbft/rpc/client"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	rpctypes "github.com/cometbft/cometbft/rpc/jsonrpc/types"
-	"github.com/cometbft/cometbft/state"
-	"github.com/cometbft/cometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/crypto/merkle"
+	cmtbytes "github.com/KYVENetwork/dydx-cometbft/libs/bytes"
+	cmtmath "github.com/KYVENetwork/dydx-cometbft/libs/math"
+	service "github.com/KYVENetwork/dydx-cometbft/libs/service"
+	rpcclient "github.com/KYVENetwork/dydx-cometbft/rpc/client"
+	ctypes "github.com/KYVENetwork/dydx-cometbft/rpc/core/types"
+	rpctypes "github.com/KYVENetwork/dydx-cometbft/rpc/jsonrpc/types"
+	"github.com/KYVENetwork/dydx-cometbft/state"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 var errNegOrZeroHeight = errors.New("negative or zero height")

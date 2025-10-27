@@ -5,7 +5,7 @@ import "cosmos_proto/cosmos.proto";
 import "dydxcometbft/subaccounts/asset_position.proto";
 import "dydxcometbft/subaccounts/perpetual_position.proto";
 
-option go_package = "github.com/cometbft/cometbft/proto/dydxcometbft/subaccounts";
+option go_package = "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/subaccounts";
 
 // SubaccountId defines a unique identifier for a Subaccount.
 message SubaccountId {

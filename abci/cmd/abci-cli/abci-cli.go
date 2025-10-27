@@ -11,16 +11,16 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cometbft/cometbft/libs/log"
-	cmtos "github.com/cometbft/cometbft/libs/os"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	cmtos "github.com/KYVENetwork/dydx-cometbft/libs/os"
 
-	abcicli "github.com/cometbft/cometbft/abci/client"
-	"github.com/cometbft/cometbft/abci/example/kvstore"
-	"github.com/cometbft/cometbft/abci/server"
-	servertest "github.com/cometbft/cometbft/abci/tests/server"
-	"github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/abci/version"
-	"github.com/cometbft/cometbft/proto/tendermint/crypto"
+	abcicli "github.com/KYVENetwork/dydx-cometbft/abci/client"
+	"github.com/KYVENetwork/dydx-cometbft/abci/example/kvstore"
+	"github.com/KYVENetwork/dydx-cometbft/abci/server"
+	servertest "github.com/KYVENetwork/dydx-cometbft/abci/tests/server"
+	"github.com/KYVENetwork/dydx-cometbft/abci/types"
+	"github.com/KYVENetwork/dydx-cometbft/abci/version"
+	"github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/crypto"
 )
 
 // client is a global variable so it can be reused by the console

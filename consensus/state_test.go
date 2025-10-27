@@ -12,20 +12,20 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/abci/example/kvstore"
-	abci "github.com/cometbft/cometbft/abci/types"
-	abcimocks "github.com/cometbft/cometbft/abci/types/mocks"
-	cstypes "github.com/cometbft/cometbft/consensus/types"
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	"github.com/cometbft/cometbft/internal/test"
-	cmtbytes "github.com/cometbft/cometbft/libs/bytes"
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/libs/protoio"
-	cmtpubsub "github.com/cometbft/cometbft/libs/pubsub"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
-	p2pmock "github.com/cometbft/cometbft/p2p/mock"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/cometbft/cometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/abci/example/kvstore"
+	abci "github.com/KYVENetwork/dydx-cometbft/abci/types"
+	abcimocks "github.com/KYVENetwork/dydx-cometbft/abci/types/mocks"
+	cstypes "github.com/KYVENetwork/dydx-cometbft/consensus/types"
+	"github.com/KYVENetwork/dydx-cometbft/crypto/tmhash"
+	"github.com/KYVENetwork/dydx-cometbft/internal/test"
+	cmtbytes "github.com/KYVENetwork/dydx-cometbft/libs/bytes"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	"github.com/KYVENetwork/dydx-cometbft/libs/protoio"
+	cmtpubsub "github.com/KYVENetwork/dydx-cometbft/libs/pubsub"
+	cmtrand "github.com/KYVENetwork/dydx-cometbft/libs/rand"
+	p2pmock "github.com/KYVENetwork/dydx-cometbft/p2p/mock"
+	cmtproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 /*
@@ -1392,7 +1392,7 @@ func TestStateMissingProposalValidBlockReceivedTimeout(t *testing.T) {
 	assert.Equal(t, rs.ValidBlock.Hash(), blockID.Hash)
 
 	// Since we didn't see the round's Proposal, we should prevote nil.
-	// NOTE: introduced by https://github.com/cometbft/cometbft/pull/1203.
+	// NOTE: introduced by https://github.com/KYVENetwork/dydx-cometbft/pull/1203.
 	// In branches v0.{34,37,38}.x, the node prevotes for the valid block.
 	ensurePrevote(voteCh, height, round)
 	validatePrevote(t, cs1, round, vss[0], nil)

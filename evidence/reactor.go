@@ -6,11 +6,11 @@ import (
 
 	"github.com/cosmos/gogoproto/proto"
 
-	clist "github.com/cometbft/cometbft/libs/clist"
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/p2p"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/cometbft/cometbft/types"
+	clist "github.com/KYVENetwork/dydx-cometbft/libs/clist"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	"github.com/KYVENetwork/dydx-cometbft/p2p"
+	cmtproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 const (

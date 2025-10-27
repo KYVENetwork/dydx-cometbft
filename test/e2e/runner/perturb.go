@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cometbft/cometbft/libs/log"
-	rpctypes "github.com/cometbft/cometbft/rpc/core/types"
-	e2e "github.com/cometbft/cometbft/test/e2e/pkg"
-	"github.com/cometbft/cometbft/test/e2e/pkg/infra/docker"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	rpctypes "github.com/KYVENetwork/dydx-cometbft/rpc/core/types"
+	e2e "github.com/KYVENetwork/dydx-cometbft/test/e2e/pkg"
+	"github.com/KYVENetwork/dydx-cometbft/test/e2e/pkg/infra/docker"
 )
 
 // Perturbs a running testnet.

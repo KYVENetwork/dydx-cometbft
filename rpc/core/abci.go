@@ -3,11 +3,11 @@ package core
 import (
 	"context"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/libs/bytes"
-	"github.com/cometbft/cometbft/proxy"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	rpctypes "github.com/cometbft/cometbft/rpc/jsonrpc/types"
+	abci "github.com/KYVENetwork/dydx-cometbft/abci/types"
+	"github.com/KYVENetwork/dydx-cometbft/libs/bytes"
+	"github.com/KYVENetwork/dydx-cometbft/proxy"
+	ctypes "github.com/KYVENetwork/dydx-cometbft/rpc/core/types"
+	rpctypes "github.com/KYVENetwork/dydx-cometbft/rpc/jsonrpc/types"
 )
 
 // ABCIQuery queries the application for some information.

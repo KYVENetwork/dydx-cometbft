@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cometbft/cometbft/libs/bits"
-	cmtjson "github.com/cometbft/cometbft/libs/json"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
+	"github.com/KYVENetwork/dydx-cometbft/libs/bits"
+	cmtjson "github.com/KYVENetwork/dydx-cometbft/libs/json"
+	cmtsync "github.com/KYVENetwork/dydx-cometbft/libs/sync"
+	cmtproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/types"
 )
 
 const (

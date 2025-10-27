@@ -10,18 +10,18 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	"github.com/cometbft/cometbft/evidence"
-	"github.com/cometbft/cometbft/evidence/mocks"
-	"github.com/cometbft/cometbft/internal/test"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	cmtversion "github.com/cometbft/cometbft/proto/tendermint/version"
-	sm "github.com/cometbft/cometbft/state"
-	smmocks "github.com/cometbft/cometbft/state/mocks"
-	"github.com/cometbft/cometbft/types"
-	"github.com/cometbft/cometbft/version"
+	"github.com/KYVENetwork/dydx-cometbft/crypto"
+	"github.com/KYVENetwork/dydx-cometbft/crypto/tmhash"
+	"github.com/KYVENetwork/dydx-cometbft/evidence"
+	"github.com/KYVENetwork/dydx-cometbft/evidence/mocks"
+	"github.com/KYVENetwork/dydx-cometbft/internal/test"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	cmtproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/types"
+	cmtversion "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/version"
+	sm "github.com/KYVENetwork/dydx-cometbft/state"
+	smmocks "github.com/KYVENetwork/dydx-cometbft/state/mocks"
+	"github.com/KYVENetwork/dydx-cometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/version"
 )
 
 const (

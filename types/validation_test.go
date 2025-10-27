@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
+	cmtmath "github.com/KYVENetwork/dydx-cometbft/libs/math"
+	cmtproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/types"
 )
 
 // Check VerifyCommit, VerifyCommitLight and VerifyCommitLightTrusting basic

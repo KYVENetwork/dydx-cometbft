@@ -10,16 +10,16 @@ import (
 	"testing"
 	"time"
 
-	abcitypes "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/inspect"
-	"github.com/cometbft/cometbft/internal/test"
-	"github.com/cometbft/cometbft/libs/pubsub/query"
-	httpclient "github.com/cometbft/cometbft/rpc/client/http"
-	indexermocks "github.com/cometbft/cometbft/state/indexer/mocks"
-	statemocks "github.com/cometbft/cometbft/state/mocks"
-	txindexmocks "github.com/cometbft/cometbft/state/txindex/mocks"
-	"github.com/cometbft/cometbft/types"
+	abcitypes "github.com/KYVENetwork/dydx-cometbft/abci/types"
+	"github.com/KYVENetwork/dydx-cometbft/config"
+	"github.com/KYVENetwork/dydx-cometbft/inspect"
+	"github.com/KYVENetwork/dydx-cometbft/internal/test"
+	"github.com/KYVENetwork/dydx-cometbft/libs/pubsub/query"
+	httpclient "github.com/KYVENetwork/dydx-cometbft/rpc/client/http"
+	indexermocks "github.com/KYVENetwork/dydx-cometbft/state/indexer/mocks"
+	statemocks "github.com/KYVENetwork/dydx-cometbft/state/mocks"
+	txindexmocks "github.com/KYVENetwork/dydx-cometbft/state/txindex/mocks"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 	"github.com/fortytw2/leaktest"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
@@ -257,7 +257,7 @@ func TestBlockResults(t *testing.T) {
 	testGasUsed := int64(100)
 	stateStoreMock := &statemocks.Store{}
 	stateStoreMock.On("Close").Return(nil)
-	//	cmtstate "github.com/cometbft/cometbft/proto/tendermint/state"
+	//	cmtstate "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/state"
 	stateStoreMock.On("LoadFinalizeBlockResponse", testHeight).Return(&abcitypes.ResponseFinalizeBlock{
 		TxResults: []*abcitypes.ExecTxResult{
 			{

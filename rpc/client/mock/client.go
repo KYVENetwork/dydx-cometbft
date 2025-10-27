@@ -18,13 +18,13 @@ import (
 	"context"
 	"reflect"
 
-	"github.com/cometbft/cometbft/libs/bytes"
-	"github.com/cometbft/cometbft/libs/service"
-	"github.com/cometbft/cometbft/rpc/client"
-	"github.com/cometbft/cometbft/rpc/core"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	rpctypes "github.com/cometbft/cometbft/rpc/jsonrpc/types"
-	"github.com/cometbft/cometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/libs/bytes"
+	"github.com/KYVENetwork/dydx-cometbft/libs/service"
+	"github.com/KYVENetwork/dydx-cometbft/rpc/client"
+	"github.com/KYVENetwork/dydx-cometbft/rpc/core"
+	ctypes "github.com/KYVENetwork/dydx-cometbft/rpc/core/types"
+	rpctypes "github.com/KYVENetwork/dydx-cometbft/rpc/jsonrpc/types"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 // Client wraps arbitrary implementations of the various interfaces.

@@ -5,7 +5,7 @@ package clob
 
 import (
 	fmt "fmt"
-	subaccounts "github.com/cometbft/cometbft/proto/dydxcometbft/subaccounts"
+	subaccounts "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/subaccounts"
 	_ "github.com/cosmos/gogoproto/gogoproto"
 	proto "github.com/cosmos/gogoproto/proto"
 	io "io"

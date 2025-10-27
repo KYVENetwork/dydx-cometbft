@@ -7,9 +7,9 @@ package abcicli
 import (
 	"context"
 
-	"github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/libs/service"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
+	"github.com/KYVENetwork/dydx-cometbft/abci/types"
+	"github.com/KYVENetwork/dydx-cometbft/libs/service"
+	cmtsync "github.com/KYVENetwork/dydx-cometbft/libs/sync"
 )
 
 var _ Client = (*unsyncLocalClient)(nil)

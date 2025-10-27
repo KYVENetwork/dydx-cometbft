@@ -8,18 +8,18 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	"github.com/cometbft/cometbft/libs/log"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	"github.com/cometbft/cometbft/light"
-	lightprovider "github.com/cometbft/cometbft/light/provider"
-	lighthttp "github.com/cometbft/cometbft/light/provider/http"
-	lightrpc "github.com/cometbft/cometbft/light/rpc"
-	lightdb "github.com/cometbft/cometbft/light/store/db"
-	cmtstate "github.com/cometbft/cometbft/proto/tendermint/state"
-	rpchttp "github.com/cometbft/cometbft/rpc/client/http"
-	sm "github.com/cometbft/cometbft/state"
-	"github.com/cometbft/cometbft/types"
-	"github.com/cometbft/cometbft/version"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	cmtsync "github.com/KYVENetwork/dydx-cometbft/libs/sync"
+	"github.com/KYVENetwork/dydx-cometbft/light"
+	lightprovider "github.com/KYVENetwork/dydx-cometbft/light/provider"
+	lighthttp "github.com/KYVENetwork/dydx-cometbft/light/provider/http"
+	lightrpc "github.com/KYVENetwork/dydx-cometbft/light/rpc"
+	lightdb "github.com/KYVENetwork/dydx-cometbft/light/store/db"
+	cmtstate "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/state"
+	rpchttp "github.com/KYVENetwork/dydx-cometbft/rpc/client/http"
+	sm "github.com/KYVENetwork/dydx-cometbft/state"
+	"github.com/KYVENetwork/dydx-cometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/version"
 )
 
 //go:generate ../scripts/mockery_generate.sh StateProvider

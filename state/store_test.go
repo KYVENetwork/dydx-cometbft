@@ -10,12 +10,12 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/crypto/ed25519"
-	"github.com/cometbft/cometbft/internal/test"
-	cmtstate "github.com/cometbft/cometbft/proto/tendermint/state"
-	sm "github.com/cometbft/cometbft/state"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/KYVENetwork/dydx-cometbft/abci/types"
+	"github.com/KYVENetwork/dydx-cometbft/crypto/ed25519"
+	"github.com/KYVENetwork/dydx-cometbft/internal/test"
+	cmtstate "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/state"
+	sm "github.com/KYVENetwork/dydx-cometbft/state"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 func TestStoreLoadValidators(t *testing.T) {

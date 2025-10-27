@@ -8,15 +8,15 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/ed25519"
-	"github.com/cometbft/cometbft/internal/test"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/cometbft/cometbft/proxy"
-	sm "github.com/cometbft/cometbft/state"
-	"github.com/cometbft/cometbft/types"
-	cmttime "github.com/cometbft/cometbft/types/time"
+	abci "github.com/KYVENetwork/dydx-cometbft/abci/types"
+	"github.com/KYVENetwork/dydx-cometbft/crypto"
+	"github.com/KYVENetwork/dydx-cometbft/crypto/ed25519"
+	"github.com/KYVENetwork/dydx-cometbft/internal/test"
+	cmtproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/proxy"
+	sm "github.com/KYVENetwork/dydx-cometbft/state"
+	"github.com/KYVENetwork/dydx-cometbft/types"
+	cmttime "github.com/KYVENetwork/dydx-cometbft/types/time"
 )
 
 type paramsChangeTestCase struct {

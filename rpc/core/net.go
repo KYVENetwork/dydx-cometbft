@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cometbft/cometbft/p2p"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	rpctypes "github.com/cometbft/cometbft/rpc/jsonrpc/types"
+	"github.com/KYVENetwork/dydx-cometbft/p2p"
+	ctypes "github.com/KYVENetwork/dydx-cometbft/rpc/core/types"
+	rpctypes "github.com/KYVENetwork/dydx-cometbft/rpc/jsonrpc/types"
 )
 
 // NetInfo returns network info.

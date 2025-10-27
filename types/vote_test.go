@@ -8,12 +8,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/ed25519"
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	"github.com/cometbft/cometbft/libs/protoio"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	cmttime "github.com/cometbft/cometbft/types/time"
+	"github.com/KYVENetwork/dydx-cometbft/crypto"
+	"github.com/KYVENetwork/dydx-cometbft/crypto/ed25519"
+	"github.com/KYVENetwork/dydx-cometbft/crypto/tmhash"
+	"github.com/KYVENetwork/dydx-cometbft/libs/protoio"
+	cmtproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/types"
+	cmttime "github.com/KYVENetwork/dydx-cometbft/types/time"
 )
 
 func examplePrevote() *Vote {

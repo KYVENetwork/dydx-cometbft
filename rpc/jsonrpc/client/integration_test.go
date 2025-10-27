@@ -16,7 +16,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/libs/log"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
 )
 
 func TestWSClientReconnectWithJitter(t *testing.T) {

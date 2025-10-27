@@ -14,15 +14,15 @@ import (
 
 	"github.com/cosmos/gogoproto/proto"
 
-	"github.com/cometbft/cometbft/config"
-	flow "github.com/cometbft/cometbft/libs/flowrate"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	"github.com/cometbft/cometbft/libs/protoio"
-	"github.com/cometbft/cometbft/libs/service"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	"github.com/cometbft/cometbft/libs/timer"
-	tmp2p "github.com/cometbft/cometbft/proto/tendermint/p2p"
+	"github.com/KYVENetwork/dydx-cometbft/config"
+	flow "github.com/KYVENetwork/dydx-cometbft/libs/flowrate"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	cmtmath "github.com/KYVENetwork/dydx-cometbft/libs/math"
+	"github.com/KYVENetwork/dydx-cometbft/libs/protoio"
+	"github.com/KYVENetwork/dydx-cometbft/libs/service"
+	cmtsync "github.com/KYVENetwork/dydx-cometbft/libs/sync"
+	"github.com/KYVENetwork/dydx-cometbft/libs/timer"
+	tmp2p "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/p2p"
 )
 
 const (

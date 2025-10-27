@@ -10,7 +10,7 @@ discussion with the team prior to submitting substantial pull requests. The team
 can be reached via GitHub Discussions or the Cosmos Network Discord server in
 the #cometbft channel. GitHub Discussions is preferred over Discord as it
 allows us to keep track of conversations topically.
-https://github.com/cometbft/cometbft/discussions
+https://github.com/KYVENetwork/dydx-cometbft/discussions
 
 If the work in this PR is not aligned with the team's current priorities, please
 be advised that it may take some time before it is merged - especially if it has

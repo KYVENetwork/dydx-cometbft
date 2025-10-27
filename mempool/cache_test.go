@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cometbft/cometbft/abci/example/kvstore"
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/proxy"
-	"github.com/cometbft/cometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/abci/example/kvstore"
+	abci "github.com/KYVENetwork/dydx-cometbft/abci/types"
+	"github.com/KYVENetwork/dydx-cometbft/proxy"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 	"github.com/stretchr/testify/require"
 )
 

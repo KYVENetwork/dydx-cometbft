@@ -8,19 +8,19 @@ import (
 	"strings"
 	"time"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/internal/test"
-	"github.com/cometbft/cometbft/libs/log"
+	abci "github.com/KYVENetwork/dydx-cometbft/abci/types"
+	"github.com/KYVENetwork/dydx-cometbft/internal/test"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
 
-	cfg "github.com/cometbft/cometbft/config"
-	cmtnet "github.com/cometbft/cometbft/libs/net"
-	nm "github.com/cometbft/cometbft/node"
-	"github.com/cometbft/cometbft/p2p"
-	"github.com/cometbft/cometbft/privval"
-	"github.com/cometbft/cometbft/proxy"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	core_grpc "github.com/cometbft/cometbft/rpc/grpc"
-	rpcclient "github.com/cometbft/cometbft/rpc/jsonrpc/client"
+	cfg "github.com/KYVENetwork/dydx-cometbft/config"
+	cmtnet "github.com/KYVENetwork/dydx-cometbft/libs/net"
+	nm "github.com/KYVENetwork/dydx-cometbft/node"
+	"github.com/KYVENetwork/dydx-cometbft/p2p"
+	"github.com/KYVENetwork/dydx-cometbft/privval"
+	"github.com/KYVENetwork/dydx-cometbft/proxy"
+	ctypes "github.com/KYVENetwork/dydx-cometbft/rpc/core/types"
+	core_grpc "github.com/KYVENetwork/dydx-cometbft/rpc/grpc"
+	rpcclient "github.com/KYVENetwork/dydx-cometbft/rpc/jsonrpc/client"
 )
 
 // Options helps with specifying some parameters for our RPC testing for greater

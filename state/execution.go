@@ -7,14 +7,14 @@ import (
 	"fmt"
 	"time"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	cryptoenc "github.com/cometbft/cometbft/crypto/encoding"
-	"github.com/cometbft/cometbft/libs/fail"
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/mempool"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/cometbft/cometbft/proxy"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/KYVENetwork/dydx-cometbft/abci/types"
+	cryptoenc "github.com/KYVENetwork/dydx-cometbft/crypto/encoding"
+	"github.com/KYVENetwork/dydx-cometbft/libs/fail"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	"github.com/KYVENetwork/dydx-cometbft/mempool"
+	cmtproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/proxy"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 //-----------------------------------------------------------------------------

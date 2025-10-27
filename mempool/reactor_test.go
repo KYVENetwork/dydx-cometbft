@@ -12,15 +12,15 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/abci/example/kvstore"
-	abci "github.com/cometbft/cometbft/abci/types"
-	cfg "github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/p2p"
-	"github.com/cometbft/cometbft/p2p/mock"
-	memproto "github.com/cometbft/cometbft/proto/tendermint/mempool"
-	"github.com/cometbft/cometbft/proxy"
-	"github.com/cometbft/cometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/abci/example/kvstore"
+	abci "github.com/KYVENetwork/dydx-cometbft/abci/types"
+	cfg "github.com/KYVENetwork/dydx-cometbft/config"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	"github.com/KYVENetwork/dydx-cometbft/p2p"
+	"github.com/KYVENetwork/dydx-cometbft/p2p/mock"
+	memproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/mempool"
+	"github.com/KYVENetwork/dydx-cometbft/proxy"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 const (
@@ -63,7 +63,7 @@ func TestReactorBroadcastTxsMessage(t *testing.T) {
 	waitForTxsOnReactors(t, txs, reactors)
 }
 
-// regression test for https://github.com/cometbft/cometbft/issues/5408
+// regression test for https://github.com/KYVENetwork/dydx-cometbft/issues/5408
 func TestReactorConcurrency(t *testing.T) {
 	config := cfg.TestConfig()
 	const N = 2
@@ -233,7 +233,7 @@ func TestBroadcastTxForPeerStopsWhenReactorStops(t *testing.T) {
 // TODO: This test tests that we don't panic and are able to generate new
 // PeerIDs for each peer we add. It seems as though we should be able to test
 // this in a much more direct way.
-// https://github.com/cometbft/cometbft/issues/9639
+// https://github.com/KYVENetwork/dydx-cometbft/issues/9639
 func TestDontExhaustMaxActiveIDs(t *testing.T) {
 	config := cfg.TestConfig()
 	const N = 1

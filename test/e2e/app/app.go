@@ -15,16 +15,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cometbft/cometbft/abci/example/kvstore"
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/crypto"
-	cryptoenc "github.com/cometbft/cometbft/crypto/encoding"
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/libs/protoio"
-	cryptoproto "github.com/cometbft/cometbft/proto/tendermint/crypto"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	cmttypes "github.com/cometbft/cometbft/types"
-	"github.com/cometbft/cometbft/version"
+	"github.com/KYVENetwork/dydx-cometbft/abci/example/kvstore"
+	abci "github.com/KYVENetwork/dydx-cometbft/abci/types"
+	"github.com/KYVENetwork/dydx-cometbft/crypto"
+	cryptoenc "github.com/KYVENetwork/dydx-cometbft/crypto/encoding"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	"github.com/KYVENetwork/dydx-cometbft/libs/protoio"
+	cryptoproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/crypto"
+	cmtproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/types"
+	cmttypes "github.com/KYVENetwork/dydx-cometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/version"
 )
 
 const (

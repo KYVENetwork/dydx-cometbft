@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/internal/benchmarking"
+	"github.com/KYVENetwork/dydx-cometbft/crypto"
+	"github.com/KYVENetwork/dydx-cometbft/crypto/internal/benchmarking"
 )
 
 func BenchmarkKeyGeneration(b *testing.B) {

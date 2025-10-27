@@ -17,7 +17,7 @@ This baseline is then compared with results obtained in later versions.
 Out of the testnet-based test cases described in [the releases document][releases] we focused on two of them:
 _200 Node Test_, and _Rotating Nodes Test_.
 
-[releases]: https://github.com/cometbft/cometbft/blob/v0.38.x/RELEASES.md#large-scale-testnets
+[releases]: https://github.com/KYVENetwork/dydx-cometbft/blob/v0.38.x/RELEASES.md#large-scale-testnets
 
 ## Software Dependencies
 
@@ -124,7 +124,7 @@ The CometBFT team should improve it at every iteration to increase the amount of
        * It is advisable to adjust the hash in the `go run` command to the latest possible.
        * ```bash
          mkdir results
-         go run github.com/cometbft/cometbft/test/loadtime/cmd/report@3003ef7 --database-type goleveldb --data-dir ./ > results/report.txt
+         go run github.com/KYVENetwork/dydx-cometbft/test/loadtime/cmd/report@3003ef7 --database-type goleveldb --data-dir ./ > results/report.txt
          ```
    2. File `report.txt` contains an unordered list of experiments with varying concurrent connections and transaction rate.
       You will need to separate data per experiment.
@@ -148,7 +148,7 @@ The CometBFT team should improve it at every iteration to increase the amount of
 
 3. To generate a latency vs throughput plot, extract the data as a CSV
     * ```bash
-       go run github.com/cometbft/cometbft/test/loadtime/cmd/report@3003ef7 --database-type goleveldb --data-dir ./ --csv results/raw.csv
+       go run github.com/KYVENetwork/dydx-cometbft/test/loadtime/cmd/report@3003ef7 --database-type goleveldb --data-dir ./ --csv results/raw.csv
        ```
     * Follow the instructions for the [`latency_throughput.py`] script.
     This plot is useful to visualize the saturation point.
@@ -156,8 +156,8 @@ The CometBFT team should improve it at every iteration to increase the amount of
     This script generates a series of plots per experiment and configuration that may
     help with visualizing Latency vs Throughput variation.
 
-[`latency_throughput.py`]: https://github.com/cometbft/cometbft/tree/v0.38.x/scripts/qa/reporting#latency-vs-throughput-plotting
-[`latency_plotter.py`]: https://github.com/cometbft/cometbft/tree/v0.38.x/scripts/qa/reporting#latency-vs-throughput-plotting-version-2
+[`latency_throughput.py`]: https://github.com/KYVENetwork/dydx-cometbft/tree/v0.38.x/scripts/qa/reporting#latency-vs-throughput-plotting
+[`latency_plotter.py`]: https://github.com/KYVENetwork/dydx-cometbft/tree/v0.38.x/scripts/qa/reporting#latency-vs-throughput-plotting-version-2
 
 #### Extracting Prometheus Metrics
 
@@ -168,7 +168,7 @@ The CometBFT team should improve it at every iteration to increase the amount of
 4. Identify the time window you want to plot in your graphs.
 5. Execute the [`prometheus_plotter.py`] script for the time window.
 
-[`prometheus_plotter.py`]: https://github.com/cometbft/cometbft/tree/v0.38.x/scripts/qa/reporting#prometheus-metrics
+[`prometheus_plotter.py`]: https://github.com/KYVENetwork/dydx-cometbft/tree/v0.38.x/scripts/qa/reporting#prometheus-metrics
 
 ## Rotating Node Testnet
 

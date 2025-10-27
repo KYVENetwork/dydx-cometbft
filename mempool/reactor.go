@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"time"
 
-	cfg "github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/libs/clist"
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/p2p"
-	protomem "github.com/cometbft/cometbft/proto/tendermint/mempool"
-	"github.com/cometbft/cometbft/types"
+	cfg "github.com/KYVENetwork/dydx-cometbft/config"
+	"github.com/KYVENetwork/dydx-cometbft/libs/clist"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	"github.com/KYVENetwork/dydx-cometbft/p2p"
+	protomem "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/mempool"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 	"golang.org/x/sync/semaphore"
 )
 

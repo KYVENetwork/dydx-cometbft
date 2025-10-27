@@ -5,7 +5,7 @@ import "gogoproto/gogo.proto";
 import "dydxcometbft/subaccounts/subaccount.proto";
 import "dydxcometbft/clob/order.proto";
 
-option go_package = "github.com/cometbft/cometbft/proto/dydxcometbft/clob";
+option go_package = "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/clob";
 
 // ClobMatch represents an operations queue entry around all different types
 // of matches, specifically regular matches, liquidation matches, and

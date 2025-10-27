@@ -4,12 +4,12 @@ import (
 	"encoding/json"
 	"time"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/libs/bytes"
-	"github.com/cometbft/cometbft/p2p"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/KYVENetwork/dydx-cometbft/abci/types"
+	"github.com/KYVENetwork/dydx-cometbft/crypto"
+	"github.com/KYVENetwork/dydx-cometbft/libs/bytes"
+	"github.com/KYVENetwork/dydx-cometbft/p2p"
+	cmtproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 // List of blocks

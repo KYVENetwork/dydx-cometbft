@@ -5,7 +5,7 @@ package subaccounts
 
 import (
 	fmt "fmt"
-	github_com_cometbft_cometbft_proto_dydxcometbft_gotypes "github.com/cometbft/cometbft/proto/dydxcometbft/gotypes"
+	github_com_cometbft_cometbft_proto_dydxcometbft_gotypes "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/gotypes"
 	_ "github.com/cosmos/gogoproto/gogoproto"
 	proto "github.com/cosmos/gogoproto/proto"
 	io "io"
@@ -30,10 +30,10 @@ type PerpetualPosition struct {
 	// The `Id` of the `Perpetual`.
 	PerpetualId uint32 `protobuf:"varint,1,opt,name=perpetual_id,json=perpetualId,proto3" json:"perpetual_id,omitempty"`
 	// The size of the position in base quantums.
-	Quantums github_com_cometbft_cometbft_proto_dydxcometbft_gotypes.SerializableInt `protobuf:"bytes,2,opt,name=quantums,proto3,customtype=github.com/cometbft/cometbft/proto/dydxcometbft/gotypes.SerializableInt" json:"quantums"`
+	Quantums github_com_cometbft_cometbft_proto_dydxcometbft_gotypes.SerializableInt `protobuf:"bytes,2,opt,name=quantums,proto3,customtype=github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/gotypes.SerializableInt" json:"quantums"`
 	// The funding_index of the `Perpetual` the last time this position was
 	// settled.
-	FundingIndex github_com_cometbft_cometbft_proto_dydxcometbft_gotypes.SerializableInt `protobuf:"bytes,3,opt,name=funding_index,json=fundingIndex,proto3,customtype=github.com/cometbft/cometbft/proto/dydxcometbft/gotypes.SerializableInt" json:"funding_index"`
+	FundingIndex github_com_cometbft_cometbft_proto_dydxcometbft_gotypes.SerializableInt `protobuf:"bytes,3,opt,name=funding_index,json=fundingIndex,proto3,customtype=github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/gotypes.SerializableInt" json:"funding_index"`
 }
 
 func (m *PerpetualPosition) Reset()         { *m = PerpetualPosition{} }

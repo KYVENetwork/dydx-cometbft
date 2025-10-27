@@ -11,10 +11,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cometbft/cometbft/abci/types"
-	cmtnet "github.com/cometbft/cometbft/libs/net"
-	"github.com/cometbft/cometbft/libs/service"
-	"github.com/cometbft/cometbft/libs/timer"
+	"github.com/KYVENetwork/dydx-cometbft/abci/types"
+	cmtnet "github.com/KYVENetwork/dydx-cometbft/libs/net"
+	"github.com/KYVENetwork/dydx-cometbft/libs/service"
+	"github.com/KYVENetwork/dydx-cometbft/libs/timer"
 )
 
 const (

@@ -3,11 +3,11 @@ package core
 import (
 	"time"
 
-	cmtbytes "github.com/cometbft/cometbft/libs/bytes"
-	"github.com/cometbft/cometbft/p2p"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	rpctypes "github.com/cometbft/cometbft/rpc/jsonrpc/types"
-	"github.com/cometbft/cometbft/types"
+	cmtbytes "github.com/KYVENetwork/dydx-cometbft/libs/bytes"
+	"github.com/KYVENetwork/dydx-cometbft/p2p"
+	ctypes "github.com/KYVENetwork/dydx-cometbft/rpc/core/types"
+	rpctypes "github.com/KYVENetwork/dydx-cometbft/rpc/jsonrpc/types"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 // Status returns CometBFT status including node info, pubkey, latest block

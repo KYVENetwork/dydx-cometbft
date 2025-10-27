@@ -13,11 +13,11 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	clist "github.com/cometbft/cometbft/libs/clist"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	sm "github.com/cometbft/cometbft/state"
-	"github.com/cometbft/cometbft/types"
+	clist "github.com/KYVENetwork/dydx-cometbft/libs/clist"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	cmtproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/types"
+	sm "github.com/KYVENetwork/dydx-cometbft/state"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 const (

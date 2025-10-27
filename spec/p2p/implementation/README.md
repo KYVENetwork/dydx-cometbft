@@ -10,7 +10,7 @@ communication layer in CometBFT.
 
 The documentation was [produced](https://github.com/tendermint/tendermint/pull/9348)
 using the `v0.34.*` releases
-and the branch [`v0.34.x`](https://github.com/cometbft/cometbft/tree/v0.34.x)
+and the branch [`v0.34.x`](https://github.com/KYVENetwork/dydx-cometbft/tree/v0.34.x)
 of this repository as reference.
 As there were no substancial changes in the p2p implementation, the
 documentation also applies to the releases `v0.37.*` and `v0.38.*` [^v35].
@@ -23,7 +23,7 @@ documentation also applies to the releases `v0.37.*` and `v0.38.*` [^v35].
 ## Contents
 
 The documentation follows the organization of the
-[`p2p` package](https://github.com/cometbft/cometbft/tree/v0.34.x/p2p),
+[`p2p` package](https://github.com/KYVENetwork/dydx-cometbft/tree/v0.34.x/p2p),
 which implements the following abstractions:
 
 - [Transport](./transport.md): establishes secure and authenticated

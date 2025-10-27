@@ -3,10 +3,9 @@ package proxy
 import (
 	"fmt"
 
-	abcicli "github.com/cometbft/cometbft/abci/client"
-	cmtlog "github.com/cometbft/cometbft/libs/log"
-	cmtos "github.com/cometbft/cometbft/libs/os"
-	"github.com/cometbft/cometbft/libs/service"
+	abcicli "github.com/KYVENetwork/dydx-cometbft/abci/client"
+	cmtlog "github.com/KYVENetwork/dydx-cometbft/libs/log"
+	"github.com/KYVENetwork/dydx-cometbft/libs/service"
 )
 
 const (
@@ -131,10 +130,11 @@ func (app *multiAppConn) killTMOnClientError() {
 		logger.Error(
 			fmt.Sprintf("%s connection terminated. Did the application crash? Please restart CometBFT", conn),
 			"err", err)
-		killErr := cmtos.Kill()
-		if killErr != nil {
-			logger.Error("Failed to kill this process - please do so manually", "err", killErr)
-		}
+		// Do not kill tendermint process to enable KSYNC to continue running during upgrades
+		//killErr := cmtos.Kill()
+		//if killErr != nil {
+		//	logger.Error("Failed to kill this process - please do so manually", "err", killErr)
+		//}
 	}
 
 	select {

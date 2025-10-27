@@ -12,12 +12,12 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	"github.com/cometbft/cometbft/abci/example/kvstore"
-	abci "github.com/cometbft/cometbft/abci/types"
-	mempl "github.com/cometbft/cometbft/mempool"
-	"github.com/cometbft/cometbft/proxy"
-	sm "github.com/cometbft/cometbft/state"
-	"github.com/cometbft/cometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/abci/example/kvstore"
+	abci "github.com/KYVENetwork/dydx-cometbft/abci/types"
+	mempl "github.com/KYVENetwork/dydx-cometbft/mempool"
+	"github.com/KYVENetwork/dydx-cometbft/proxy"
+	sm "github.com/KYVENetwork/dydx-cometbft/state"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 // for testing

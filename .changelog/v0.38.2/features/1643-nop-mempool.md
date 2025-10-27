@@ -1,4 +1,4 @@
-- `[mempool]` Add `nop` mempool ([\#1643](https://github.com/cometbft/cometbft/pull/1643))
+- `[mempool]` Add `nop` mempool ([\#1643](https://github.com/KYVENetwork/dydx-cometbft/pull/1643))
 
   If you want to use it, change mempool's `type` to `nop`:
 

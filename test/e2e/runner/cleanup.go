@@ -7,10 +7,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/cometbft/cometbft/libs/log"
-	e2e "github.com/cometbft/cometbft/test/e2e/pkg"
-	"github.com/cometbft/cometbft/test/e2e/pkg/exec"
-	"github.com/cometbft/cometbft/test/e2e/pkg/infra/docker"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	e2e "github.com/KYVENetwork/dydx-cometbft/test/e2e/pkg"
+	"github.com/KYVENetwork/dydx-cometbft/test/e2e/pkg/exec"
+	"github.com/KYVENetwork/dydx-cometbft/test/e2e/pkg/infra/docker"
 )
 
 // Cleanup removes the Docker Compose containers and testnet directory.

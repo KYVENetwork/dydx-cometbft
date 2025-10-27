@@ -3,8 +3,8 @@ package types
 import (
 	"time"
 
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	cmttime "github.com/cometbft/cometbft/types/time"
+	cmtproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/types"
+	cmttime "github.com/KYVENetwork/dydx-cometbft/types/time"
 )
 
 // Canonical* wraps the structs in types for amino encoding them for use in SignBytes / the Signable interface.

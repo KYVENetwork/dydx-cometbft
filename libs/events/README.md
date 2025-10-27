@@ -2,7 +2,7 @@
 
 # events
 
-`import "github.com/cometbft/cometbft/libs/events"`
+`import "github.com/KYVENetwork/dydx-cometbft/libs/events"`
 
 ## Overview
 

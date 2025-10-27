@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	"github.com/cometbft/cometbft/types"
+	cmtmath "github.com/KYVENetwork/dydx-cometbft/libs/math"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 var (

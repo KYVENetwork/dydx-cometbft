@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/libs/log"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
-	"github.com/cometbft/cometbft/p2p"
-	"github.com/cometbft/cometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	cmtrand "github.com/KYVENetwork/dydx-cometbft/libs/rand"
+	"github.com/KYVENetwork/dydx-cometbft/p2p"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 func init() {

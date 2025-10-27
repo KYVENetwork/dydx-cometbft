@@ -4,10 +4,10 @@ import (
 	"errors"
 	"time"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/libs/service"
-	"github.com/cometbft/cometbft/p2p"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/KYVENetwork/dydx-cometbft/abci/types"
+	"github.com/KYVENetwork/dydx-cometbft/libs/service"
+	"github.com/KYVENetwork/dydx-cometbft/p2p"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 // NopMempool is a mempool that does nothing.

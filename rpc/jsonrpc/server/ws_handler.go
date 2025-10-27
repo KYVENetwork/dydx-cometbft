@@ -12,9 +12,9 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/libs/service"
-	types "github.com/cometbft/cometbft/rpc/jsonrpc/types"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	"github.com/KYVENetwork/dydx-cometbft/libs/service"
+	types "github.com/KYVENetwork/dydx-cometbft/rpc/jsonrpc/types"
 )
 
 // WebSocket handler

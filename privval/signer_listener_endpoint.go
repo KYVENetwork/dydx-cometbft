@@ -5,10 +5,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/libs/service"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	privvalproto "github.com/cometbft/cometbft/proto/tendermint/privval"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	"github.com/KYVENetwork/dydx-cometbft/libs/service"
+	cmtsync "github.com/KYVENetwork/dydx-cometbft/libs/sync"
+	privvalproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/privval"
 )
 
 // SignerListenerEndpointOption sets an optional parameter on the SignerListenerEndpoint.

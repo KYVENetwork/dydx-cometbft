@@ -1,8 +1,8 @@
 package proxy
 
 import (
-	abcicli "github.com/cometbft/cometbft/abci/client"
-	"github.com/cometbft/cometbft/abci/types"
+	abcicli "github.com/KYVENetwork/dydx-cometbft/abci/client"
+	"github.com/KYVENetwork/dydx-cometbft/abci/types"
 )
 
 var (

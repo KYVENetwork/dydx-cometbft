@@ -70,15 +70,15 @@ the 0.38.x line.
    The following links are to always point to `main`, regardless of where they
    occur in the codebase:
 
-   * `https://github.com/cometbft/cometbft/blob/main/LICENSE`
+   * `https://github.com/KYVENetwork/dydx-cometbft/blob/main/LICENSE`
 
    Be sure to search for all of the following links and replace `main` with your
    corresponding branch label or version (e.g. `v0.38.x` or `v0.38`):
 
-   * `github.com/cometbft/cometbft/blob/main` ->
-     `github.com/cometbft/cometbft/blob/v0.38.x`
-   * `github.com/cometbft/cometbft/tree/main` ->
-     `github.com/cometbft/cometbft/tree/v0.38.x`
+   * `github.com/KYVENetwork/dydx-cometbft/blob/main` ->
+     `github.com/KYVENetwork/dydx-cometbft/blob/v0.38.x`
+   * `github.com/KYVENetwork/dydx-cometbft/tree/main` ->
+     `github.com/KYVENetwork/dydx-cometbft/tree/v0.38.x`
    * `docs.cometbft.com/main` -> `docs.cometbft.com/v0.38`
 
    Once you have updated all of the relevant documentation:
@@ -109,13 +109,13 @@ After doing these steps, go back to `main` and do the following:
 
 2. Add a new section to the Mergify config (`.github/mergify.yml`) to enable the
    backport bot to work on this branch, and add a corresponding `backport-to-v0.38.x`
-   [label](https://github.com/cometbft/cometbft/labels) so the bot can be triggered.
+   [label](https://github.com/KYVENetwork/dydx-cometbft/labels) so the bot can be triggered.
 
 3. Add a new section to the Dependabot config (`.github/dependabot.yml`) to
    enable automatic update of Go dependencies on this branch. Copy and edit one
    of the existing branch configurations to set the correct `target-branch`.
 
-[e2e]: https://github.com/cometbft/cometbft/blob/main/.github/workflows/e2e-nightly-main.yml
+[e2e]: https://github.com/KYVENetwork/dydx-cometbft/blob/main/.github/workflows/e2e-nightly-main.yml
 
 ## Pre-releases
 
@@ -157,7 +157,7 @@ backport branch (see above). Otherwise:
 1. Start from the backport branch (e.g. `v0.38.x`).
 2. Run the integration tests and the E2E nightlies
    (which can be triggered from the GitHub UI;
-   e.g., <https://github.com/cometbft/cometbft/actions/workflows/e2e-manual.yml>).
+   e.g., <https://github.com/KYVENetwork/dydx-cometbft/actions/workflows/e2e-manual.yml>).
 3. Prepare the pre-release documentation:
    * Build the changelog with [unclog] _without_ doing an unclog release, and
      commit the built changelog. This ensures that all changelog entries appear
@@ -273,7 +273,7 @@ operators.
 ### Nightly End-To-End Tests
 
 The CometBFT team maintains [a set of end-to-end
-tests](https://github.com/cometbft/cometbft/blob/main/test/e2e/README.md#L1)
+tests](https://github.com/KYVENetwork/dydx-cometbft/blob/main/test/e2e/README.md#L1)
 that run each night on the latest commit of the project and on the code in the
 tip of each supported backport branch. These tests start a network of
 containerized CometBFT processes and run automated checks that the network

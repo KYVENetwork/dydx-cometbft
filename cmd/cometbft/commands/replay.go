@@ -3,7 +3,7 @@ package commands
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/cometbft/cometbft/consensus"
+	"github.com/KYVENetwork/dydx-cometbft/consensus"
 )
 
 // ReplayCmd allows replaying of messages from the WAL.

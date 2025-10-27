@@ -1,9 +1,9 @@
 package mempool
 
 import (
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/proto/dydxcometbft/clob"
-	"github.com/cometbft/cometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	"github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/clob"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 	cosmostx "github.com/cosmos/cosmos-sdk/types/tx"
 )
 

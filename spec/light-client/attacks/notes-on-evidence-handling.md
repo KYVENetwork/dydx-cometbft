@@ -19,7 +19,7 @@ detects an attack, it needs to send to a witness only missing data (common heigh
 and conflicting light block) as it has its trace. Keeping light client attack data of constant size
 saves bandwidth and reduces an attack surface. As we will explain below, although in the context of
 light client core
-[verification](https://github.com/cometbft/cometbft/tree/v0.38.x/spec/light-client/verification)
+[verification](https://github.com/KYVENetwork/dydx-cometbft/tree/v0.38.x/spec/light-client/verification)
 the roles of primary and witness are clearly defined,
 in case of the attack, we run the same attack detection procedure twice where the roles are swapped.
 The rationale is that the light client does not know what peer is correct (on a right main branch)
@@ -68,7 +68,7 @@ The following invariant holds for the primary trace:
 ### Witness with a conflicting header
 
 The verified header at height `h` is cross-checked with every witness as part of
-[detection](https://github.com/cometbft/cometbft/tree/v0.38.x/spec/light-client/detection).
+[detection](https://github.com/KYVENetwork/dydx-cometbft/tree/v0.38.x/spec/light-client/detection).
 If a witness returns the conflicting header at the height `h` the following procedure is executed to verify
 if the conflicting header comes from the valid trace and if that's the case to create an attack evidence:
 
@@ -137,7 +137,7 @@ light client:
 
 - lunatic attack
 - equivocation attack and
-- amnesia attack.  
+- amnesia attack.
 
 We now specify the evidence handling logic.
 
@@ -195,14 +195,14 @@ Detecting faulty processes in case of the amnesia attack is more complex and can
 purely based on attack evidence data. In this case, in order to detect misbehaving processes we need
 access to votes processes sent/received during the conflicting height. Therefore, amnesia handling assumes that
 validators persist all votes received and sent during multi-round heights (as amnesia attack
-is only possible in heights that executes over multiple rounds, i.e., commit round > 0).  
+is only possible in heights that executes over multiple rounds, i.e., commit round > 0).
 
 To simplify description of the algorithm we assume existence of the trusted oracle called monitor that will
 drive the algorithm and output faulty processes at the end. Monitor can be implemented in a
 distributed setting as on-chain module. The algorithm works as follows:
     1) Monitor sends votesets request to validators of the conflicting height. Validators
     are expected to send their votesets within predefined timeout.
-    2) Upon receiving votesets request, validators send their votesets to a monitor.  
+    2) Upon receiving votesets request, validators send their votesets to a monitor.
     2) Validators which have not sent its votesets within timeout are considered faulty.
     3) The preprocessing of the votesets is done. That means that the received votesets are analyzed
     and each vote (valid) sent by process p is added to the voteset of the sender p. This phase ensures that

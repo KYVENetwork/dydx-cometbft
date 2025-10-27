@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"reflect"
 
-	cmtbytes "github.com/cometbft/cometbft/libs/bytes"
-	cmtstrings "github.com/cometbft/cometbft/libs/strings"
-	tmp2p "github.com/cometbft/cometbft/proto/tendermint/p2p"
-	"github.com/cometbft/cometbft/version"
+	cmtbytes "github.com/KYVENetwork/dydx-cometbft/libs/bytes"
+	cmtstrings "github.com/KYVENetwork/dydx-cometbft/libs/strings"
+	tmp2p "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/p2p"
+	"github.com/KYVENetwork/dydx-cometbft/version"
 )
 
 const (

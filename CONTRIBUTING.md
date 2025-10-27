@@ -9,14 +9,14 @@ CometBFT project or a potential fork. When targeting the main CometBFT project,
 the following process leads to the best chance of landing changes in `main`.
 
 All work on the code base should be motivated by a [GitHub
-Issue](https://github.com/cometbft/cometbft/issues).
-[Search](https://github.com/cometbft/cometbft/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
+Issue](https://github.com/KYVENetwork/dydx-cometbft/issues).
+[Search](https://github.com/KYVENetwork/dydx-cometbft/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
 is a good place to start when looking for places to contribute. If you would
 like to work on an issue which already exists, please indicate so by leaving a
 comment.
 
 All new contributions should start with a [GitHub
-Issue](https://github.com/cometbft/cometbft/issues/new/choose). The issue helps
+Issue](https://github.com/KYVENetwork/dydx-cometbft/issues/new/choose). The issue helps
 capture the problem you're trying to solve and allows for early feedback. Once
 the issue is created the process can proceed in different directions depending
 on how well defined the problem and potential solution are. If the change is
@@ -25,7 +25,7 @@ heartfelt emoji.
 
 If the issue would benefit from thorough discussion, maintainers may request
 that you create a [Request For
-Comment](https://github.com/cometbft/cometbft/tree/main/docs/rfc) in the
+Comment](https://github.com/KYVENetwork/dydx-cometbft/tree/main/docs/rfc) in the
 CometBFT repo. Discussion at the RFC stage will build collective
 understanding of the dimensions of the problems and help structure conversations
 around trade-offs.

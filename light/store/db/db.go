@@ -8,10 +8,10 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	"github.com/cometbft/cometbft/light/store"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/cometbft/cometbft/types"
+	cmtsync "github.com/KYVENetwork/dydx-cometbft/libs/sync"
+	"github.com/KYVENetwork/dydx-cometbft/light/store"
+	cmtproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 var sizeKey = []byte("size")

@@ -3,10 +3,10 @@ package privval
 import (
 	"io"
 
-	"github.com/cometbft/cometbft/libs/service"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	privvalproto "github.com/cometbft/cometbft/proto/tendermint/privval"
-	"github.com/cometbft/cometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/libs/service"
+	cmtsync "github.com/KYVENetwork/dydx-cometbft/libs/sync"
+	privvalproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/privval"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 // ValidationRequestHandlerFunc handles different remoteSigner requests

@@ -9,19 +9,19 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cometbft/cometbft/libs/log"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
 
 	"github.com/cosmos/gogoproto/proto"
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	idxutil "github.com/cometbft/cometbft/internal/indexer"
-	"github.com/cometbft/cometbft/libs/pubsub/query"
-	"github.com/cometbft/cometbft/libs/pubsub/query/syntax"
-	"github.com/cometbft/cometbft/state/indexer"
-	"github.com/cometbft/cometbft/state/txindex"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/KYVENetwork/dydx-cometbft/abci/types"
+	idxutil "github.com/KYVENetwork/dydx-cometbft/internal/indexer"
+	"github.com/KYVENetwork/dydx-cometbft/libs/pubsub/query"
+	"github.com/KYVENetwork/dydx-cometbft/libs/pubsub/query/syntax"
+	"github.com/KYVENetwork/dydx-cometbft/state/indexer"
+	"github.com/KYVENetwork/dydx-cometbft/state/txindex"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 const (

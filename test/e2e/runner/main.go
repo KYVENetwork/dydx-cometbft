@@ -10,11 +10,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cometbft/cometbft/libs/log"
-	e2e "github.com/cometbft/cometbft/test/e2e/pkg"
-	"github.com/cometbft/cometbft/test/e2e/pkg/infra"
-	"github.com/cometbft/cometbft/test/e2e/pkg/infra/digitalocean"
-	"github.com/cometbft/cometbft/test/e2e/pkg/infra/docker"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	e2e "github.com/KYVENetwork/dydx-cometbft/test/e2e/pkg"
+	"github.com/KYVENetwork/dydx-cometbft/test/e2e/pkg/infra"
+	"github.com/KYVENetwork/dydx-cometbft/test/e2e/pkg/infra/digitalocean"
+	"github.com/KYVENetwork/dydx-cometbft/test/e2e/pkg/infra/docker"
 )
 
 const randomSeed = 2308084734268
@@ -302,7 +302,7 @@ func NewCLI() *CLI {
 	Min Block Interval
 	Max Block Interval
 over a 100 block sampling period.
-		
+
 Does not run any perturbations.
 		`,
 		RunE: func(cmd *cobra.Command, args []string) error {

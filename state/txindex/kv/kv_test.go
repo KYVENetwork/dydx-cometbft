@@ -12,11 +12,11 @@ import (
 
 	db "github.com/cometbft/cometbft-db"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/libs/pubsub/query"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
-	"github.com/cometbft/cometbft/state/txindex"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/KYVENetwork/dydx-cometbft/abci/types"
+	"github.com/KYVENetwork/dydx-cometbft/libs/pubsub/query"
+	cmtrand "github.com/KYVENetwork/dydx-cometbft/libs/rand"
+	"github.com/KYVENetwork/dydx-cometbft/state/txindex"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 func TestTxIndex(t *testing.T) {

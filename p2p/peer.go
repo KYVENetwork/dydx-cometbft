@@ -8,11 +8,11 @@ import (
 
 	"github.com/cosmos/gogoproto/proto"
 
-	"github.com/cometbft/cometbft/libs/cmap"
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/libs/service"
+	"github.com/KYVENetwork/dydx-cometbft/libs/cmap"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	"github.com/KYVENetwork/dydx-cometbft/libs/service"
 
-	cmtconn "github.com/cometbft/cometbft/p2p/conn"
+	cmtconn "github.com/KYVENetwork/dydx-cometbft/p2p/conn"
 )
 
 //go:generate ../scripts/mockery_generate.sh Peer

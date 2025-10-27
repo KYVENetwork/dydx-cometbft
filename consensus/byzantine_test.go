@@ -14,21 +14,21 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	abcicli "github.com/cometbft/cometbft/abci/client"
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/evidence"
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/libs/service"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	mempl "github.com/cometbft/cometbft/mempool"
-	"github.com/cometbft/cometbft/proxy"
+	abcicli "github.com/KYVENetwork/dydx-cometbft/abci/client"
+	abci "github.com/KYVENetwork/dydx-cometbft/abci/types"
+	"github.com/KYVENetwork/dydx-cometbft/evidence"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	"github.com/KYVENetwork/dydx-cometbft/libs/service"
+	cmtsync "github.com/KYVENetwork/dydx-cometbft/libs/sync"
+	mempl "github.com/KYVENetwork/dydx-cometbft/mempool"
+	"github.com/KYVENetwork/dydx-cometbft/proxy"
 
-	"github.com/cometbft/cometbft/p2p"
-	cmtcons "github.com/cometbft/cometbft/proto/tendermint/consensus"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	sm "github.com/cometbft/cometbft/state"
-	"github.com/cometbft/cometbft/store"
-	"github.com/cometbft/cometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/p2p"
+	cmtcons "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/consensus"
+	cmtproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/types"
+	sm "github.com/KYVENetwork/dydx-cometbft/state"
+	"github.com/KYVENetwork/dydx-cometbft/store"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 //----------------------------------------------

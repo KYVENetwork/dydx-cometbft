@@ -8,14 +8,14 @@ import (
 	"github.com/cosmos/gogoproto/proto"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/ed25519"
-	cryptoenc "github.com/cometbft/cometbft/crypto/encoding"
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	cryptoproto "github.com/cometbft/cometbft/proto/tendermint/crypto"
-	privproto "github.com/cometbft/cometbft/proto/tendermint/privval"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/cometbft/cometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/crypto"
+	"github.com/KYVENetwork/dydx-cometbft/crypto/ed25519"
+	cryptoenc "github.com/KYVENetwork/dydx-cometbft/crypto/encoding"
+	"github.com/KYVENetwork/dydx-cometbft/crypto/tmhash"
+	cryptoproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/crypto"
+	privproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/privval"
+	cmtproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 var stamp = time.Date(2019, 10, 13, 16, 14, 44, 0, time.UTC)

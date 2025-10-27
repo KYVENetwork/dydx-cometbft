@@ -16,16 +16,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/merkle"
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	"github.com/cometbft/cometbft/libs/bits"
-	"github.com/cometbft/cometbft/libs/bytes"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	cmtversion "github.com/cometbft/cometbft/proto/tendermint/version"
-	cmttime "github.com/cometbft/cometbft/types/time"
-	"github.com/cometbft/cometbft/version"
+	"github.com/KYVENetwork/dydx-cometbft/crypto"
+	"github.com/KYVENetwork/dydx-cometbft/crypto/merkle"
+	"github.com/KYVENetwork/dydx-cometbft/crypto/tmhash"
+	"github.com/KYVENetwork/dydx-cometbft/libs/bits"
+	"github.com/KYVENetwork/dydx-cometbft/libs/bytes"
+	cmtrand "github.com/KYVENetwork/dydx-cometbft/libs/rand"
+	cmtproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/types"
+	cmtversion "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/version"
+	cmttime "github.com/KYVENetwork/dydx-cometbft/types/time"
+	"github.com/KYVENetwork/dydx-cometbft/version"
 )
 
 func TestMain(m *testing.M) {

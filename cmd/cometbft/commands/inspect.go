@@ -8,12 +8,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	cfg "github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/inspect"
-	"github.com/cometbft/cometbft/state"
-	"github.com/cometbft/cometbft/state/indexer/block"
-	"github.com/cometbft/cometbft/store"
-	"github.com/cometbft/cometbft/types"
+	cfg "github.com/KYVENetwork/dydx-cometbft/config"
+	"github.com/KYVENetwork/dydx-cometbft/inspect"
+	"github.com/KYVENetwork/dydx-cometbft/state"
+	"github.com/KYVENetwork/dydx-cometbft/state/indexer/block"
+	"github.com/KYVENetwork/dydx-cometbft/store"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 // InspectCmd is the command for starting an inspect server.

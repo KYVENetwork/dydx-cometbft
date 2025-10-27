@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/libs/clist"
-	mempl "github.com/cometbft/cometbft/mempool"
-	"github.com/cometbft/cometbft/proxy"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/KYVENetwork/dydx-cometbft/abci/types"
+	"github.com/KYVENetwork/dydx-cometbft/libs/clist"
+	mempl "github.com/KYVENetwork/dydx-cometbft/mempool"
+	"github.com/KYVENetwork/dydx-cometbft/proxy"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 //-----------------------------------------------------------------------------

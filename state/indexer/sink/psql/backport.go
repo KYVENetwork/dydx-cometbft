@@ -17,12 +17,12 @@ import (
 	"context"
 	"errors"
 
-	"github.com/cometbft/cometbft/libs/log"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/libs/pubsub/query"
-	"github.com/cometbft/cometbft/state/txindex"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/KYVENetwork/dydx-cometbft/abci/types"
+	"github.com/KYVENetwork/dydx-cometbft/libs/pubsub/query"
+	"github.com/KYVENetwork/dydx-cometbft/state/txindex"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 const (

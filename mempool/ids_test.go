@@ -4,7 +4,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/cometbft/cometbft/p2p/mock"
+	"github.com/KYVENetwork/dydx-cometbft/p2p/mock"
 	"github.com/stretchr/testify/assert"
 )
 

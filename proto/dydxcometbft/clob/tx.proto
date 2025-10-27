@@ -6,7 +6,7 @@ import "dydxcometbft/clob/order.proto";
 
 // this line is used by starport scaffolding # proto/tx/import
 
-option go_package = "github.com/cometbft/cometbft/proto/dydxcometbft/clob";
+option go_package = "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/clob";
 
 // dYdX fork: This file is trimmed down to not include the service component since it requires the
 // `option (cosmos.msg.v1.service) = true;` tag.

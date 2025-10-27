@@ -4,9 +4,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cometbft/cometbft/abci/example/kvstore"
-	nm "github.com/cometbft/cometbft/node"
-	rpctest "github.com/cometbft/cometbft/rpc/test"
+	"github.com/KYVENetwork/dydx-cometbft/abci/example/kvstore"
+	nm "github.com/KYVENetwork/dydx-cometbft/node"
+	rpctest "github.com/KYVENetwork/dydx-cometbft/rpc/test"
 )
 
 var node *nm.Node

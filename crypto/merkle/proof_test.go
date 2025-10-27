@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	cmtcrypto "github.com/cometbft/cometbft/proto/tendermint/crypto"
+	"github.com/KYVENetwork/dydx-cometbft/crypto/tmhash"
+	cmtcrypto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/crypto"
 )
 
 const ProofOpDomino = "test:domino"

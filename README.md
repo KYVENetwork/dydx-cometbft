@@ -85,13 +85,13 @@ Complete documentation can be found on the
 ## Releases
 
 Please do not depend on `main` as your production branch. Use
-[releases](https://github.com/cometbft/cometbft/releases) instead.
+[releases](https://github.com/KYVENetwork/dydx-cometbft/releases) instead.
 
 If you intend to run CometBFT in production, we're happy to help. To contact
 us, in order of preference:
 
 - [Create a new discussion on
-  GitHub](https://github.com/cometbft/cometbft/discussions)
+  GitHub](https://github.com/KYVENetwork/dydx-cometbft/discussions)
 - Reach out to us via [Telegram](https://t.me/CometBFT)
 - [Join the Cosmos Network Discord](https://discord.gg/cosmosnetwork) and
   discuss in
@@ -217,7 +217,7 @@ maintains [cometbft.com](https://cometbft.com).
 [smr]: https://en.wikipedia.org/wiki/State_machine_replication
 [Blockchain]: https://en.wikipedia.org/wiki/Blockchain
 [version-badge]: https://img.shields.io/github/v/release/cometbft/cometbft.svg
-[version-url]: https://github.com/cometbft/cometbft/releases/latest
+[version-url]: https://github.com/KYVENetwork/dydx-cometbft/releases/latest
 [api-badge]: https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f676f6c616e672f6764646f3f7374617475732e737667
 [api-url]: https://pkg.go.dev/github.com/cometbft/cometbft
 [go-badge]: https://img.shields.io/badge/go-1.20-blue.svg
@@ -225,23 +225,23 @@ maintains [cometbft.com](https://cometbft.com).
 [discord-badge]: https://img.shields.io/discord/669268347736686612.svg
 [discord-url]: https://discord.gg/cosmosnetwork
 [license-badge]: https://img.shields.io/github/license/cometbft/cometbft.svg
-[license-url]: https://github.com/cometbft/cometbft/blob/main/LICENSE
-[sg-badge]: https://sourcegraph.com/github.com/cometbft/cometbft/-/badge.svg
+[license-url]: https://github.com/KYVENetwork/dydx-cometbft/blob/main/LICENSE
+[sg-badge]: https://sourcegraph.com/github.com/KYVENetwork/dydx-cometbft/-/badge.svg
 [sg-url]: https://sourcegraph.com/github.com/cometbft/cometbft?badge
-[tests-url]: https://github.com/cometbft/cometbft/actions/workflows/tests.yml
-[tests-url-v038x]: https://github.com/cometbft/cometbft/actions/workflows/tests.yml?query=branch%3Av0.38.x
-[tests-url-v037x]: https://github.com/cometbft/cometbft/actions/workflows/tests.yml?query=branch%3Av0.37.x
-[tests-url-v034x]: https://github.com/cometbft/cometbft/actions/workflows/tests.yml?query=branch%3Av0.34.x
-[tests-badge]: https://github.com/cometbft/cometbft/actions/workflows/tests.yml/badge.svg?branch=main
-[tests-badge-v038x]: https://github.com/cometbft/cometbft/actions/workflows/tests.yml/badge.svg?branch=v0.38.x
-[tests-badge-v037x]: https://github.com/cometbft/cometbft/actions/workflows/tests.yml/badge.svg?branch=v0.37.x
-[tests-badge-v034x]: https://github.com/cometbft/cometbft/actions/workflows/tests.yml/badge.svg?branch=v0.34.x
-[lint-badge]: https://github.com/cometbft/cometbft/actions/workflows/lint.yml/badge.svg?branch=main
-[lint-badge-v034x]: https://github.com/cometbft/cometbft/actions/workflows/lint.yml/badge.svg?branch=v0.34.x
-[lint-badge-v037x]: https://github.com/cometbft/cometbft/actions/workflows/lint.yml/badge.svg?branch=v0.37.x
-[lint-badge-v038x]: https://github.com/cometbft/cometbft/actions/workflows/lint.yml/badge.svg?branch=v0.38.x
-[lint-url]: https://github.com/cometbft/cometbft/actions/workflows/lint.yml
-[lint-url-v034x]: https://github.com/cometbft/cometbft/actions/workflows/lint.yml?query=branch%3Av0.34.x
-[lint-url-v037x]: https://github.com/cometbft/cometbft/actions/workflows/lint.yml?query=branch%3Av0.37.x
-[lint-url-v038x]: https://github.com/cometbft/cometbft/actions/workflows/lint.yml?query=branch%3Av0.38.x
+[tests-url]: https://github.com/KYVENetwork/dydx-cometbft/actions/workflows/tests.yml
+[tests-url-v038x]: https://github.com/KYVENetwork/dydx-cometbft/actions/workflows/tests.yml?query=branch%3Av0.38.x
+[tests-url-v037x]: https://github.com/KYVENetwork/dydx-cometbft/actions/workflows/tests.yml?query=branch%3Av0.37.x
+[tests-url-v034x]: https://github.com/KYVENetwork/dydx-cometbft/actions/workflows/tests.yml?query=branch%3Av0.34.x
+[tests-badge]: https://github.com/KYVENetwork/dydx-cometbft/actions/workflows/tests.yml/badge.svg?branch=main
+[tests-badge-v038x]: https://github.com/KYVENetwork/dydx-cometbft/actions/workflows/tests.yml/badge.svg?branch=v0.38.x
+[tests-badge-v037x]: https://github.com/KYVENetwork/dydx-cometbft/actions/workflows/tests.yml/badge.svg?branch=v0.37.x
+[tests-badge-v034x]: https://github.com/KYVENetwork/dydx-cometbft/actions/workflows/tests.yml/badge.svg?branch=v0.34.x
+[lint-badge]: https://github.com/KYVENetwork/dydx-cometbft/actions/workflows/lint.yml/badge.svg?branch=main
+[lint-badge-v034x]: https://github.com/KYVENetwork/dydx-cometbft/actions/workflows/lint.yml/badge.svg?branch=v0.34.x
+[lint-badge-v037x]: https://github.com/KYVENetwork/dydx-cometbft/actions/workflows/lint.yml/badge.svg?branch=v0.37.x
+[lint-badge-v038x]: https://github.com/KYVENetwork/dydx-cometbft/actions/workflows/lint.yml/badge.svg?branch=v0.38.x
+[lint-url]: https://github.com/KYVENetwork/dydx-cometbft/actions/workflows/lint.yml
+[lint-url-v034x]: https://github.com/KYVENetwork/dydx-cometbft/actions/workflows/lint.yml?query=branch%3Av0.34.x
+[lint-url-v037x]: https://github.com/KYVENetwork/dydx-cometbft/actions/workflows/lint.yml?query=branch%3Av0.37.x
+[lint-url-v038x]: https://github.com/KYVENetwork/dydx-cometbft/actions/workflows/lint.yml?query=branch%3Av0.38.x
 [tm-core]: https://github.com/tendermint/tendermint

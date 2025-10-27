@@ -10,11 +10,11 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/cometbft/cometbft/abci/types"
-	cmtlog "github.com/cometbft/cometbft/libs/log"
-	cmtnet "github.com/cometbft/cometbft/libs/net"
-	"github.com/cometbft/cometbft/libs/service"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
+	"github.com/KYVENetwork/dydx-cometbft/abci/types"
+	cmtlog "github.com/KYVENetwork/dydx-cometbft/libs/log"
+	cmtnet "github.com/KYVENetwork/dydx-cometbft/libs/net"
+	"github.com/KYVENetwork/dydx-cometbft/libs/service"
+	cmtsync "github.com/KYVENetwork/dydx-cometbft/libs/sync"
 )
 
 // SocketServer is the server-side implementation of the TSP (Tendermint Socket Protocol)

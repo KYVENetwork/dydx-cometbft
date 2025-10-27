@@ -4,13 +4,13 @@ import (
 	"os"
 	"testing"
 
-	cfg "github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	"github.com/cometbft/cometbft/internal/test"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/cometbft/cometbft/types"
-	cmttime "github.com/cometbft/cometbft/types/time"
+	cfg "github.com/KYVENetwork/dydx-cometbft/config"
+	"github.com/KYVENetwork/dydx-cometbft/crypto/tmhash"
+	"github.com/KYVENetwork/dydx-cometbft/internal/test"
+	cmtrand "github.com/KYVENetwork/dydx-cometbft/libs/rand"
+	cmtproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/types"
+	cmttime "github.com/KYVENetwork/dydx-cometbft/types/time"
 	"github.com/stretchr/testify/require"
 )
 

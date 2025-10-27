@@ -5,16 +5,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cometbft/cometbft/libs/bytes"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtpubsub "github.com/cometbft/cometbft/libs/pubsub"
-	cmtquery "github.com/cometbft/cometbft/libs/pubsub/query"
-	nm "github.com/cometbft/cometbft/node"
-	rpcclient "github.com/cometbft/cometbft/rpc/client"
-	"github.com/cometbft/cometbft/rpc/core"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	rpctypes "github.com/cometbft/cometbft/rpc/jsonrpc/types"
-	"github.com/cometbft/cometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/libs/bytes"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	cmtpubsub "github.com/KYVENetwork/dydx-cometbft/libs/pubsub"
+	cmtquery "github.com/KYVENetwork/dydx-cometbft/libs/pubsub/query"
+	nm "github.com/KYVENetwork/dydx-cometbft/node"
+	rpcclient "github.com/KYVENetwork/dydx-cometbft/rpc/client"
+	"github.com/KYVENetwork/dydx-cometbft/rpc/core"
+	ctypes "github.com/KYVENetwork/dydx-cometbft/rpc/core/types"
+	rpctypes "github.com/KYVENetwork/dydx-cometbft/rpc/jsonrpc/types"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 /*

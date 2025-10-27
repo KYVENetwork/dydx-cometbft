@@ -7,13 +7,13 @@ import (
 
 	"github.com/rs/cors"
 
-	"github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/rpc/core"
-	"github.com/cometbft/cometbft/rpc/jsonrpc/server"
-	"github.com/cometbft/cometbft/state"
-	"github.com/cometbft/cometbft/state/indexer"
-	"github.com/cometbft/cometbft/state/txindex"
+	"github.com/KYVENetwork/dydx-cometbft/config"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	"github.com/KYVENetwork/dydx-cometbft/rpc/core"
+	"github.com/KYVENetwork/dydx-cometbft/rpc/jsonrpc/server"
+	"github.com/KYVENetwork/dydx-cometbft/state"
+	"github.com/KYVENetwork/dydx-cometbft/state/indexer"
+	"github.com/KYVENetwork/dydx-cometbft/state/txindex"
 )
 
 // Server defines parameters for running an Inspector rpc server.

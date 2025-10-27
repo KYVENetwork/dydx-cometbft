@@ -8,11 +8,11 @@ import (
 
 	"github.com/cosmos/gogoproto/proto"
 
-	"github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/libs/cmap"
-	"github.com/cometbft/cometbft/libs/rand"
-	"github.com/cometbft/cometbft/libs/service"
-	"github.com/cometbft/cometbft/p2p/conn"
+	"github.com/KYVENetwork/dydx-cometbft/config"
+	"github.com/KYVENetwork/dydx-cometbft/libs/cmap"
+	"github.com/KYVENetwork/dydx-cometbft/libs/rand"
+	"github.com/KYVENetwork/dydx-cometbft/libs/service"
+	"github.com/KYVENetwork/dydx-cometbft/p2p/conn"
 )
 
 const (

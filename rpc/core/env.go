@@ -5,17 +5,17 @@ import (
 	"fmt"
 	"time"
 
-	cfg "github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/crypto"
-	cmtjson "github.com/cometbft/cometbft/libs/json"
-	"github.com/cometbft/cometbft/libs/log"
-	mempl "github.com/cometbft/cometbft/mempool"
-	"github.com/cometbft/cometbft/p2p"
-	"github.com/cometbft/cometbft/proxy"
-	sm "github.com/cometbft/cometbft/state"
-	"github.com/cometbft/cometbft/state/indexer"
-	"github.com/cometbft/cometbft/state/txindex"
-	"github.com/cometbft/cometbft/types"
+	cfg "github.com/KYVENetwork/dydx-cometbft/config"
+	"github.com/KYVENetwork/dydx-cometbft/crypto"
+	cmtjson "github.com/KYVENetwork/dydx-cometbft/libs/json"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	mempl "github.com/KYVENetwork/dydx-cometbft/mempool"
+	"github.com/KYVENetwork/dydx-cometbft/p2p"
+	"github.com/KYVENetwork/dydx-cometbft/proxy"
+	sm "github.com/KYVENetwork/dydx-cometbft/state"
+	"github.com/KYVENetwork/dydx-cometbft/state/indexer"
+	"github.com/KYVENetwork/dydx-cometbft/state/txindex"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 const (

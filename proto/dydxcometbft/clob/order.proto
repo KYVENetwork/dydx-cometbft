@@ -4,7 +4,7 @@ package dydxcometbft.clob;
 import "gogoproto/gogo.proto";
 import "dydxcometbft/subaccounts/subaccount.proto";
 
-option go_package = "github.com/cometbft/cometbft/proto/dydxcometbft/clob";
+option go_package = "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/clob";
 
 // OrderId refers to a single order belonging to a Subaccount.
 message OrderId {

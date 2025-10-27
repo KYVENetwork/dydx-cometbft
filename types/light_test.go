@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/cometbft/cometbft/crypto"
-	cmtversion "github.com/cometbft/cometbft/proto/tendermint/version"
-	"github.com/cometbft/cometbft/version"
+	"github.com/KYVENetwork/dydx-cometbft/crypto"
+	cmtversion "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/version"
+	"github.com/KYVENetwork/dydx-cometbft/version"
 )
 
 func TestLightBlockValidateBasic(t *testing.T) {

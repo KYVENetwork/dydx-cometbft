@@ -208,7 +208,7 @@ go.sum: go.mod
 draw_deps:
 	@# requires brew install graphviz or apt-get install graphviz
 	go get github.com/RobotsAndPencils/goviz
-	@goviz -i github.com/cometbft/cometbft/cmd/cometbft -d 3 | dot -Tpng -o dependency-graph.png
+	@goviz -i github.com/KYVENetwork/dydx-cometbft/cmd/cometbft -d 3 | dot -Tpng -o dependency-graph.png
 .PHONY: draw_deps
 
 get_deps_bin_size:
@@ -253,7 +253,7 @@ lint:
 	@go run github.com/golangci/golangci-lint/cmd/golangci-lint@latest run
 .PHONY: lint
 
-# https://github.com/cometbft/cometbft/pull/1925#issuecomment-1875127862
+# https://github.com/KYVENetwork/dydx-cometbft/pull/1925#issuecomment-1875127862
 # Revisit using lint-format after CometBFT v1 release and/or after 2024-06-01.
 #lint-format:
 #	@go run github.com/golangci/golangci-lint/cmd/golangci-lint@latest run --fix

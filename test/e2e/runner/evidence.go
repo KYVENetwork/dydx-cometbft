@@ -10,16 +10,16 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	"github.com/cometbft/cometbft/internal/test"
-	cmtjson "github.com/cometbft/cometbft/libs/json"
-	"github.com/cometbft/cometbft/privval"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	cmtversion "github.com/cometbft/cometbft/proto/tendermint/version"
-	e2e "github.com/cometbft/cometbft/test/e2e/pkg"
-	"github.com/cometbft/cometbft/types"
-	"github.com/cometbft/cometbft/version"
+	"github.com/KYVENetwork/dydx-cometbft/crypto"
+	"github.com/KYVENetwork/dydx-cometbft/crypto/tmhash"
+	"github.com/KYVENetwork/dydx-cometbft/internal/test"
+	cmtjson "github.com/KYVENetwork/dydx-cometbft/libs/json"
+	"github.com/KYVENetwork/dydx-cometbft/privval"
+	cmtproto "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/types"
+	cmtversion "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/version"
+	e2e "github.com/KYVENetwork/dydx-cometbft/test/e2e/pkg"
+	"github.com/KYVENetwork/dydx-cometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/version"
 )
 
 // 1 in 4 evidence is light client evidence, the rest is duplicate vote evidence

@@ -19,7 +19,7 @@ the v0.37 release.
 
 We'd love your feedback on this release! Please reach out to us via one of our
 communication channels, such as [GitHub
-Discussions](https://github.com/cometbft/cometbft/discussions), with any of your
+Discussions](https://github.com/KYVENetwork/dydx-cometbft/discussions), with any of your
 questions, comments and/or concerns.
 
 See below for more details.

@@ -12,13 +12,13 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	"github.com/cometbft/cometbft/internal/test"
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/light"
-	"github.com/cometbft/cometbft/light/provider"
-	mockp "github.com/cometbft/cometbft/light/provider/mock"
-	dbs "github.com/cometbft/cometbft/light/store/db"
-	"github.com/cometbft/cometbft/types"
+	"github.com/KYVENetwork/dydx-cometbft/internal/test"
+	"github.com/KYVENetwork/dydx-cometbft/libs/log"
+	"github.com/KYVENetwork/dydx-cometbft/light"
+	"github.com/KYVENetwork/dydx-cometbft/light/provider"
+	mockp "github.com/KYVENetwork/dydx-cometbft/light/provider/mock"
+	dbs "github.com/KYVENetwork/dydx-cometbft/light/store/db"
+	"github.com/KYVENetwork/dydx-cometbft/types"
 )
 
 const (
