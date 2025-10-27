@@ -3,8 +3,8 @@ package sr25519
 import cmtjson "github.com/KYVENetwork/dydx-cometbft/libs/json"
 
 const (
-	PrivKeyName = "tendermint/PrivKeySr25519"
-	PubKeyName  = "tendermint/PubKeySr25519"
+	PrivKeyName = "dydxcometbft/PrivKeySr25519"
+	PubKeyName  = "dydxcometbft/PubKeySr25519"
 )
 
 func init() {

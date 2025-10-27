@@ -26,7 +26,7 @@ message LightBlockRequest {
 }
 
 message LightBlockResponse {
-  tendermint.types.LightBlock light_block = 1;
+  dydxcometbft.types.LightBlock light_block = 1;
 }
 ```
 

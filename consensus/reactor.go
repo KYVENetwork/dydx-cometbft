@@ -1516,15 +1516,15 @@ type Message interface {
 }
 
 func init() {
-	cmtjson.RegisterType(&NewRoundStepMessage{}, "tendermint/NewRoundStepMessage")
-	cmtjson.RegisterType(&NewValidBlockMessage{}, "tendermint/NewValidBlockMessage")
-	cmtjson.RegisterType(&ProposalMessage{}, "tendermint/Proposal")
-	cmtjson.RegisterType(&ProposalPOLMessage{}, "tendermint/ProposalPOL")
-	cmtjson.RegisterType(&BlockPartMessage{}, "tendermint/BlockPart")
-	cmtjson.RegisterType(&VoteMessage{}, "tendermint/Vote")
-	cmtjson.RegisterType(&HasVoteMessage{}, "tendermint/HasVote")
-	cmtjson.RegisterType(&VoteSetMaj23Message{}, "tendermint/VoteSetMaj23")
-	cmtjson.RegisterType(&VoteSetBitsMessage{}, "tendermint/VoteSetBits")
+	cmtjson.RegisterType(&NewRoundStepMessage{}, "dydxcometbft/NewRoundStepMessage")
+	cmtjson.RegisterType(&NewValidBlockMessage{}, "dydxcometbft/NewValidBlockMessage")
+	cmtjson.RegisterType(&ProposalMessage{}, "dydxcometbft/Proposal")
+	cmtjson.RegisterType(&ProposalPOLMessage{}, "dydxcometbft/ProposalPOL")
+	cmtjson.RegisterType(&BlockPartMessage{}, "dydxcometbft/BlockPart")
+	cmtjson.RegisterType(&VoteMessage{}, "dydxcometbft/Vote")
+	cmtjson.RegisterType(&HasVoteMessage{}, "dydxcometbft/HasVote")
+	cmtjson.RegisterType(&VoteSetMaj23Message{}, "dydxcometbft/VoteSetMaj23")
+	cmtjson.RegisterType(&VoteSetBitsMessage{}, "dydxcometbft/VoteSetBits")
 }
 
 //-------------------------------------

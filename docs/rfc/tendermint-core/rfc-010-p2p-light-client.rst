@@ -75,7 +75,7 @@ User Cases
 ~~~~~~~~~~
 
 This RFC makes a few assumptions about the use cases and users of light
-clients in tendermint.
+clients in dydxcometbft.
 
 The most active and delicate use cases for light clients is in the
 implementation of the IBC relayer. Thus, we expect that providing P2P light

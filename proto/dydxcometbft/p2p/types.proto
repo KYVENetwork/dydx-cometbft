@@ -1,5 +1,5 @@
 syntax = "proto3";
-package tendermint.p2p;
+package dydxcometbft.p2p;
 
 option go_package = "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/p2p";
 

@@ -1,10 +1,10 @@
 syntax = "proto3";
-package tendermint.types;
+package dydxcometbft.types;
 
 option go_package = "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/types";
 
 import "gogoproto/gogo.proto";
-import "tendermint/types/types.proto";
+import "dydxcometbft/types/types.proto";
 import "google/protobuf/timestamp.proto";
 
 message CanonicalBlockID {

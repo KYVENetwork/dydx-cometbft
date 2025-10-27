@@ -1,5 +1,5 @@
 syntax = "proto3";
-package tendermint.statesync;
+package dydxcometbft.statesync;
 
 option go_package = "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/statesync";
 

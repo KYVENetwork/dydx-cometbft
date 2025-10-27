@@ -1,13 +1,13 @@
 syntax = "proto3";
-package tendermint.types;
+package dydxcometbft.types;
 
 option go_package = "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/types";
 
 import "gogoproto/gogo.proto";
 import "google/protobuf/timestamp.proto";
-import "tendermint/crypto/proof.proto";
-import "tendermint/version/types.proto";
-import "tendermint/types/validator.proto";
+import "dydxcometbft/crypto/proof.proto";
+import "dydxcometbft/version/types.proto";
+import "dydxcometbft/types/validator.proto";
 
 // SignedMsgType is a type of signed message in the consensus.
 enum SignedMsgType {
@@ -32,7 +32,7 @@ message PartSetHeader {
 message Part {
   uint32                  index = 1;
   bytes                   bytes = 2;
-  tendermint.crypto.Proof proof = 3 [(gogoproto.nullable) = false];
+  dydxcometbft.crypto.Proof proof = 3 [(gogoproto.nullable) = false];
 }
 
 // BlockID
@@ -46,7 +46,7 @@ message BlockID {
 // Header defines the structure of a block header.
 message Header {
   // basic block info
-  tendermint.version.Consensus version  = 1 [(gogoproto.nullable) = false];
+  dydxcometbft.version.Consensus version  = 1 [(gogoproto.nullable) = false];
   string                       chain_id = 2 [(gogoproto.customname) = "ChainID"];
   int64                        height   = 3;
   google.protobuf.Timestamp    time     = 4 [(gogoproto.nullable) = false, (gogoproto.stdtime) = true];
@@ -112,7 +112,7 @@ message Commit {
 
 // CommitSig is a part of the Vote included in a Commit.
 message CommitSig {
-  tendermint.types.BlockIDFlag block_id_flag     = 1;
+  dydxcometbft.types.BlockIDFlag block_id_flag     = 1;
   bytes                        validator_address = 2;
   google.protobuf.Timestamp    timestamp         = 3
       [(gogoproto.nullable) = false, (gogoproto.stdtime) = true];
@@ -131,7 +131,7 @@ message ExtendedCommit {
 // extension-related fields. We use two signatures to ensure backwards compatibility.
 // That is the digest of the original signature is still the same in prior versions
 message ExtendedCommitSig {
-  tendermint.types.BlockIDFlag block_id_flag     = 1;
+  dydxcometbft.types.BlockIDFlag block_id_flag     = 1;
   bytes                        validator_address = 2;
   google.protobuf.Timestamp    timestamp         = 3
       [(gogoproto.nullable) = false, (gogoproto.stdtime) = true];
@@ -160,7 +160,7 @@ message SignedHeader {
 
 message LightBlock {
   SignedHeader                  signed_header = 1;
-  tendermint.types.ValidatorSet validator_set = 2;
+  dydxcometbft.types.ValidatorSet validator_set = 2;
 }
 
 message BlockMeta {
@@ -174,5 +174,5 @@ message BlockMeta {
 message TxProof {
   bytes                   root_hash = 1;
   bytes                   data      = 2;
-  tendermint.crypto.Proof proof     = 3;
+  dydxcometbft.crypto.Proof proof     = 3;
 }

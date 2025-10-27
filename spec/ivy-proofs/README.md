@@ -9,8 +9,8 @@ SPDX-License-Identifier: Apache-2.0
 
 This folder contains:
 
-* `tendermint.ivy`, a specification of Tendermint algorithm as described in *The latest gossip on BFT consensus* by E. Buchman, J. Kwon, Z. Milosevic.
-* `abstract_tendermint.ivy`, a more abstract specification of Tendermint that is more verification-friendly.
+* `dydxcometbft.ivy`, a specification of Tendermint algorithm as described in *The latest gossip on BFT consensus* by E. Buchman, J. Kwon, Z. Milosevic.
+* `abstract_dydxcometbft.ivy`, a more abstract specification of Tendermint that is more verification-friendly.
 * `classic_safety.ivy`, a proof that Tendermint satisfies the classic safety property of BFT consensus: if every two quorums have a well-behaved node in common, then no two well-behaved nodes ever disagree.
 * `accountable_safety_1.ivy`, a proof that, assuming every quorum contains at least one well-behaved node, if two well-behaved nodes disagree, then there is evidence demonstrating at least f+1 nodes misbehaved.
 * `accountable_safety_2.ivy`, a proof that, regardless of any assumption about quorums, well-behaved nodes cannot be framed by malicious nodes. In other words, malicious nodes can never construct evidence that incriminates a well-behaved node.

@@ -1178,7 +1178,7 @@ components:
       properties:
         type:
           type: string
-          example: "tendermint/PubKeyEd25519"
+          example: "dydxcometbft/PubKeyEd25519"
         value:
           type: string
           example: "A6DoBUypNtUAyEHWtQ9bFjfNg8Bo9CrnkUGl6k6OHN4="
@@ -1608,7 +1608,7 @@ components:
                     properties:
                       type:
                         type: string
-                        example: "tendermint/PubKeyEd25519"
+                        example: "dydxcometbft/PubKeyEd25519"
                       value:
                         type: string
                         example: "9tK9IT+FPdf2qm+5c2qaxi10sWP+3erWTKgftn2PaQM="
@@ -1767,7 +1767,7 @@ components:
                         properties:
                           type:
                             type: string
-                            example: "tendermint/PubKeyEd25519"
+                            example: "dydxcometbft/PubKeyEd25519"
                           value:
                             type: string
                             example: "cOQZvh/h9ZioSeUMZB/1Vy1Xo5x2sjrVjlE/qHnYifM="
@@ -2720,7 +2720,7 @@ components:
           properties:
             type:
               type: string
-              example: "tendermint/PubKeyEd25519"
+              example: "dydxcometbft/PubKeyEd25519"
             value:
               type: string
               example: "9tK9IT+FPdf2qm+5c2qaxi10sWP+3erWTKgftn2PaQM="

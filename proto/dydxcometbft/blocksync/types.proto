@@ -1,10 +1,10 @@
 syntax = "proto3";
-package tendermint.blocksync;
+package dydxcometbft.blocksync;
 
 option go_package = "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/blocksync";
 
-import "tendermint/types/block.proto";
-import "tendermint/types/types.proto";
+import "dydxcometbft/types/block.proto";
+import "dydxcometbft/types/types.proto";
 
 // BlockRequest requests a block for a specific height
 message BlockRequest {
@@ -18,8 +18,8 @@ message NoBlockResponse {
 
 // BlockResponse returns block to the requested
 message BlockResponse {
-  tendermint.types.Block          block      = 1;
-  tendermint.types.ExtendedCommit ext_commit = 2;
+  dydxcometbft.types.Block          block      = 1;
+  dydxcometbft.types.ExtendedCommit ext_commit = 2;
 }
 
 // StatusRequest requests the status of a peer.

@@ -181,7 +181,7 @@ For `LightClientAttack`
 
 - Check that the hashes of the conflicting header and the trusted header are different
 
-- In the case of a forward lunatic attack, where the trusted header height is less than the conflicting header height, the node checks that the time of the trusted header is later than the time of conflicting header. This proves that the conflicting header breaks monotonically increasing time. If the node doesn't have a trusted header with a later time then it is unable to validate the evidence for now. 
+- In the case of a forward lunatic attack, where the trusted header height is less than the conflicting header height, the node checks that the time of the trusted header is later than the time of conflicting header. This proves that the conflicting header breaks monotonically increasing time. If the node doesn't have a trusted header with a later time then it is unable to validate the evidence for now.
 
 - Lastly, for each validator, check the look up table to make sure there already isn't evidence against this validator
 
@@ -228,7 +228,7 @@ The changes to the application are minimal (it is still formed one for each mali
 ```go
 type Evidence struct {
   // either LightClientAttackEvidence or DuplicateVoteEvidence as an enum (abci.EvidenceType)
-	Type EvidenceType `protobuf:"varint,1,opt,name=type,proto3,enum=tendermint.abci.EvidenceType" json:"type,omitempty"`
+	Type EvidenceType `protobuf:"varint,1,opt,name=type,proto3,enum=dydxcometbft.abci.EvidenceType" json:"type,omitempty"`
 	// The offending validator
 	Validator Validator `protobuf:"bytes,2,opt,name=validator,proto3" json:"validator"`
 	// The height when the offense occurred

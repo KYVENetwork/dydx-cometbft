@@ -164,7 +164,7 @@ Tendermint currently uses the `BFTTime` algorithm to produce the block's `Header
 The [proposal logic](https://github.com/tendermint/tendermint/blob/68ca65f5d79905abd55ea999536b1a3685f9f19d/internal/state/state.go#L269) sets the weighted median of the times in the `LastCommit.CommitSigs` as the proposed block's `Header.Timestamp`.
 
 In proposer-based timestamps, the proposer will still set a timestamp into the `Header.Timestamp`.
-The timestamp the proposer sets into the `Header` will change depending on if the block has previously received a [polka](https://github.com/tendermint/tendermint/blob/053651160f496bb44b107a434e3e6482530bb287/docs/introduction/what-is-tendermint.md#consensus-overview) or not.
+The timestamp the proposer sets into the `Header` will change depending on if the block has previously received a [polka](https://github.com/tendermint/tendermint/blob/053651160f496bb44b107a434e3e6482530bb287/docs/introduction/what-is-dydxcometbft.md#consensus-overview) or not.
 
 #### Proposal of a block that has not previously received a polka
 

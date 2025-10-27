@@ -276,11 +276,11 @@ alongside the current `Commit.Signatures` field. This new field, tentatively nam
 message AggregatedSignature {
   // yeas is a BitArray representing which validators in the active validator
   // set issued a 'yea' vote for the block.
-  tendermint.libs.bits.BitArray yeas = 1;
+  dydxcometbft.libs.bits.BitArray yeas = 1;
 
   // absent is a BitArray representing which validators in the active
   // validator set did not issue votes for the block.
-  tendermint.libs.bits.BitArray absent = 2;
+  dydxcometbft.libs.bits.BitArray absent = 2;
 
   // yea_signature is an aggregated signature produced from all of the vote
   // signatures for the block.

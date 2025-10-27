@@ -53,7 +53,7 @@ anyone who runs tendermint and the ABCI application in separate
 processes). In the current implementation, and even previous versions,
 modifying node initialization or injecting custom components required
 copying most of the `node` package, which required such users
-to maintain a vendored copy of tendermint.
+to maintain a vendored copy of dydxcometbft.
 
 While this is (likely) not tenable in the long term, as users do want
 more modularity, and the current service implementation is brittle and

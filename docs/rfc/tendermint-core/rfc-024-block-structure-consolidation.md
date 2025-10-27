@@ -34,14 +34,14 @@ The current block structures are included here to aid discussion.
 message Block {
   Header                        header      = 1;
   Data                          data        = 2;
-  tendermint.types.EvidenceList evidence    = 3;
+  dydxcometbft.types.EvidenceList evidence    = 3;
   Commit                        last_commit = 4;
 }
 ```
 
 ```proto
 message Header {
-  tendermint.version.Consensus version              = 1;
+  dydxcometbft.version.Consensus version              = 1;
   string                       chain_id             = 2;
   int64                        height               = 3;
   google.protobuf.Timestamp    time                 = 4;

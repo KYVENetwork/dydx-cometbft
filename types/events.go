@@ -46,17 +46,17 @@ type TMEventData interface {
 }
 
 func init() {
-	cmtjson.RegisterType(EventDataNewBlock{}, "tendermint/event/NewBlock")
-	cmtjson.RegisterType(EventDataNewBlockHeader{}, "tendermint/event/NewBlockHeader")
-	cmtjson.RegisterType(EventDataNewBlockEvents{}, "tendermint/event/NewBlockEvents")
-	cmtjson.RegisterType(EventDataNewEvidence{}, "tendermint/event/NewEvidence")
-	cmtjson.RegisterType(EventDataTx{}, "tendermint/event/Tx")
-	cmtjson.RegisterType(EventDataRoundState{}, "tendermint/event/RoundState")
-	cmtjson.RegisterType(EventDataNewRound{}, "tendermint/event/NewRound")
-	cmtjson.RegisterType(EventDataCompleteProposal{}, "tendermint/event/CompleteProposal")
-	cmtjson.RegisterType(EventDataVote{}, "tendermint/event/Vote")
-	cmtjson.RegisterType(EventDataValidatorSetUpdates{}, "tendermint/event/ValidatorSetUpdates")
-	cmtjson.RegisterType(EventDataString(""), "tendermint/event/ProposalString")
+	cmtjson.RegisterType(EventDataNewBlock{}, "dydxcometbft/event/NewBlock")
+	cmtjson.RegisterType(EventDataNewBlockHeader{}, "dydxcometbft/event/NewBlockHeader")
+	cmtjson.RegisterType(EventDataNewBlockEvents{}, "dydxcometbft/event/NewBlockEvents")
+	cmtjson.RegisterType(EventDataNewEvidence{}, "dydxcometbft/event/NewEvidence")
+	cmtjson.RegisterType(EventDataTx{}, "dydxcometbft/event/Tx")
+	cmtjson.RegisterType(EventDataRoundState{}, "dydxcometbft/event/RoundState")
+	cmtjson.RegisterType(EventDataNewRound{}, "dydxcometbft/event/NewRound")
+	cmtjson.RegisterType(EventDataCompleteProposal{}, "dydxcometbft/event/CompleteProposal")
+	cmtjson.RegisterType(EventDataVote{}, "dydxcometbft/event/Vote")
+	cmtjson.RegisterType(EventDataValidatorSetUpdates{}, "dydxcometbft/event/ValidatorSetUpdates")
+	cmtjson.RegisterType(EventDataString(""), "dydxcometbft/event/ProposalString")
 }
 
 // Most event messages are basic types (a block, a transaction)

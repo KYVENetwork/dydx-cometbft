@@ -1,5 +1,5 @@
 syntax = "proto3";
-package tendermint.libs.bits;
+package dydxcometbft.libs.bits;
 
 option go_package = "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/libs/bits";
 

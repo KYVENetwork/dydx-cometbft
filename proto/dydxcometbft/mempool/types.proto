@@ -1,5 +1,5 @@
 syntax = "proto3";
-package tendermint.mempool;
+package dydxcometbft.mempool;
 
 option go_package = "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/mempool";
 

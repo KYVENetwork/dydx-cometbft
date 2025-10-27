@@ -18,8 +18,8 @@ import (
 
 // -------------------------------------
 const (
-	PrivKeyName = "tendermint/PrivKeySecp256k1"
-	PubKeyName  = "tendermint/PubKeySecp256k1"
+	PrivKeyName = "dydxcometbft/PrivKeySecp256k1"
+	PubKeyName  = "dydxcometbft/PubKeySecp256k1"
 
 	KeyType     = "secp256k1"
 	PrivKeySize = 32

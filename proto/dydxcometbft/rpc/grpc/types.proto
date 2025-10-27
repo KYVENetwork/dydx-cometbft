@@ -1,8 +1,8 @@
 syntax = "proto3";
-package tendermint.rpc.grpc;
+package dydxcometbft.rpc.grpc;
 option  go_package = "github.com/KYVENetwork/dydx-cometbft/rpc/grpc;coregrpc";
 
-import "tendermint/abci/types.proto";
+import "dydxcometbft/abci/types.proto";
 
 //----------------------------------------
 // Request types
@@ -19,8 +19,8 @@ message RequestBroadcastTx {
 message ResponsePing {}
 
 message ResponseBroadcastTx {
-  tendermint.abci.ResponseCheckTx check_tx  = 1;
-  tendermint.abci.ExecTxResult    tx_result = 2;
+  dydxcometbft.abci.ResponseCheckTx check_tx  = 1;
+  dydxcometbft.abci.ExecTxResult    tx_result = 2;
 }
 
 //----------------------------------------

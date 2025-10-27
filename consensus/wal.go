@@ -46,9 +46,9 @@ type EndHeightMessage struct {
 type WALMessage interface{}
 
 func init() {
-	cmtjson.RegisterType(msgInfo{}, "tendermint/wal/MsgInfo")
-	cmtjson.RegisterType(timeoutInfo{}, "tendermint/wal/TimeoutInfo")
-	cmtjson.RegisterType(EndHeightMessage{}, "tendermint/wal/EndHeightMessage")
+	cmtjson.RegisterType(msgInfo{}, "dydxcometbft/wal/MsgInfo")
+	cmtjson.RegisterType(timeoutInfo{}, "dydxcometbft/wal/TimeoutInfo")
+	cmtjson.RegisterType(EndHeightMessage{}, "dydxcometbft/wal/EndHeightMessage")
 }
 
 //--------------------------------------------------------

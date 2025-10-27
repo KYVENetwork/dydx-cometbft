@@ -1,5 +1,5 @@
 syntax = "proto3";
-package tendermint.types;
+package dydxcometbft.types;
 
 option go_package = "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/types";
 

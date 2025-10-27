@@ -71,7 +71,7 @@ isolate abstract_classic_safety = {
 # ====================
 
 # Now, thanks to the refinement relation that we establish in
-# `concrete_tendermint.ivy`, we prove that classic safety transfers to the
+# `concrete_dydxcometbft.ivy`, we prove that classic safety transfers to the
 # concrete specification:
 isolate classic_safety = {
 

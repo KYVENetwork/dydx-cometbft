@@ -1,11 +1,11 @@
 syntax = "proto3";
-package tendermint.consensus;
+package dydxcometbft.consensus;
 
 option go_package = "github.com/KYVENetwork/dydx-cometbft/proto/dydxcometbft/consensus";
 
 import "gogoproto/gogo.proto";
-import "tendermint/consensus/types.proto";
-import "tendermint/types/events.proto";
+import "dydxcometbft/consensus/types.proto";
+import "dydxcometbft/types/events.proto";
 import "google/protobuf/duration.proto";
 import "google/protobuf/timestamp.proto";
 
@@ -32,7 +32,7 @@ message EndHeight {
 
 message WALMessage {
   oneof sum {
-    tendermint.types.EventDataRoundState event_data_round_state = 1;
+    dydxcometbft.types.EventDataRoundState event_data_round_state = 1;
     MsgInfo                              msg_info               = 2;
     TimeoutInfo                          timeout_info           = 3;
     EndHeight                            end_height             = 4;

@@ -119,11 +119,11 @@ func TestUnmarshalValidatorKey(t *testing.T) {
 	serialized := fmt.Sprintf(`{
   "address": "%s",
   "pub_key": {
-    "type": "tendermint/PubKeyEd25519",
+    "type": "dydxcometbft/PubKeyEd25519",
     "value": "%s"
   },
   "priv_key": {
-    "type": "tendermint/PrivKeyEd25519",
+    "type": "dydxcometbft/PrivKeyEd25519",
     "value": "%s"
   }
 }`, addr, pubB64, privB64)
